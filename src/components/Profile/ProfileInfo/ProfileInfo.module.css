@@ -1,0 +1,68 @@
+.mainPic img {
+    width: 100%;
+    height: 200px;
+    /*background-image: url("https://pbs.twimg.com/profile_banners/6597932/1409172765/1500x500");*/
+    /*background-image: url("https://globalvaluechains.org/sites/globalvaluechains.org/files/pictures/banner_researchers_1200x300.png");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.descriptionBlock {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted darkgray;
+}
+
+.descriptionBlock img {
+    width: 100px;
+    height: 100px;
+}
+
+.userFullName {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    color: midnightblue;
+}
+
+.userIdNum {
+    color: orangered;
+}
+
+.status {
+    color: darkblue;
+}
+
+.aboutMe {
+    font-style: italic;
+    color: orangered;
+}
+
+p {
+    font-size: 10px;
+    font-style: italic;
+    color: darkgray;
+}
+
+.changePhoto input {
+    cursor: pointer;
+}
+
+.myStatusItem {
+    color: midnightblue;
+}
+
+.myStatusItem span {
+    color: orangered;
+}
+
+.contacts {
+    color: orangered;
+    margin-left: 20px;
+}
+
+.contactItem {
+    padding-left: 15px;
+    color: black;
+    font-weight: normal;
+}

@@ -1,0 +1,24 @@
+.messagesBlock {
+    display: flex;
+    align-content: center;
+    padding-top: .5rem;
+
+}
+
+.currentMessage {
+    width: 30%;
+    margin-right: 15px;
+
+
+}
+
+textarea {
+    width: 150px;
+    height: 1rem;
+    margin-right: 15px;
+}
+
+.addButton {
+
+
+}

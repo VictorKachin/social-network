@@ -1,0 +1,44 @@
+.wrapperUsers {
+    color: #203667;
+    padding-left: 15px;
+}
+
+.wrapper{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.userImg img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 4px;
+}
+.following {
+    margin-bottom: 4px;
+}
+
+.fullName {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #203667;
+    margin-bottom: 8px;
+}
+
+.status {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 14px;
+    color: orangered;
+}
+
+.locCountry, .locCity{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    color: darkred;
+}

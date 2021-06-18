@@ -1,0 +1,41 @@
+.content {
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: dimgrey;
+}
+
+.addingField {
+    margin-top: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+textarea {
+    display: flex;
+    align-items: center;
+    padding-left: .5rem;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.addingField button {
+    padding: 8px 20px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg, blue, lightslategray);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.addingField button:hover {
+    background: linear-gradient(45deg, midnightblue, dodgerblue);
+    color: lightcyan;
+    border: none;
+}

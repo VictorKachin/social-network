@@ -1,0 +1,37 @@
+.header {
+    grid-area: h;
+    background-color: #203667;
+
+}
+
+.header img {
+    margin-left: 15px;
+    width: 55px;
+    height: 55px;
+}
+
+.loginBlock {
+    margin: 0 20px 0 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.loginText {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.loginText:hover {
+    color: gold;
+    /*font-style: italic;*/
+    font-size: 1.1rem;
+}
+
+.loginBlock {
+    font-weight: bold;
+    color: orange;
+}
