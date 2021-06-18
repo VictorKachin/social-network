@@ -1,0 +1,32 @@
+.nav {
+    grid-area: n;
+    background-color: #2c4c7d;
+    padding: 20px;
+}
+
+.item {
+    margin-bottom: 10px;
+    transition: all 250ms ease-out 0s;
+    border-left: 2px solid transparent;
+}
+
+.item a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.item:hover {
+    transform: translateX(4pt);
+}
+
+a:hover {
+    color: darkorange;
+}
+
+.item .activeLink {
+    color: darkorange;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 2px solid darkorange;
+    transform: translateX(4pt);
+}

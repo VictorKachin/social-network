@@ -1,0 +1,12 @@
+.postsBlock {
+    padding: 10px;
+    color: indigo;
+}
+
+.posts {
+    margin-top: 15px;
+}
+
+button {
+    cursor: pointer;
+}

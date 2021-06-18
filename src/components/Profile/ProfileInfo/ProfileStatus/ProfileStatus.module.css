@@ -1,0 +1,9 @@
+.wrapper {
+    font-style: italic;
+    color: orangered;
+}
+
+.userStatus {
+    color: darkblue;
+    font-style: normal;
+}

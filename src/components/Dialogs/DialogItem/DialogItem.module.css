@@ -1,0 +1,14 @@
+.dialogsItems {
+    margin-left: 10px;
+    padding-top: .5rem;
+    padding-bottom: 2px;
+
+}
+
+.dialogsItems a {
+    text-decoration: none;
+}
+
+.dialogsItems .activeLink {
+    color: gold;
+}

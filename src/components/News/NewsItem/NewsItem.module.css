@@ -1,0 +1,17 @@
+.wrapper {
+
+}
+.newsText {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: mediumvioletred;
+}
+
+.likesHere {
+    color: #2c4c7d;
+}
+
+.likesCount {
+    font-weight: 600;
+}

@@ -1,0 +1,41 @@
+.paginator {
+    margin: 5px auto;
+    /*margin-right: auto;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pageNumber {
+    width: 1rem;
+    height: 1rem;
+    padding: 3px 6px 7px 5px;
+    /*margin-right: 6px;*/
+    margin-left: 6px;
+    text-align: center;
+    color: #2c4c7d;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid darkorange;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.pageNumber:hover {
+    background-color: #2c4c7d;
+    color: white;
+}
+
+/*.pageNumber:active {*/
+/*    background-color: #2c4c7d;*/
+/*    color: white;*/
+/*}*/
+.nextBtn {
+    margin-left: 10px;
+}
+
+.pageNumber .selectedPage {
+    background-color: blue;
+    color: darkorange;
+}
